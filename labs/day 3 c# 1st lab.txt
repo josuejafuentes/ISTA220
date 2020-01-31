@@ -1,0 +1,14 @@
+using System;
+
+namespace TestHello
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            string dad = "aasah";
+          Console.WriteLine($"hello,{dad});
+                
+        }
+    }
+}

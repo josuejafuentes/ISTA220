@@ -1,0 +1,35 @@
+1. What is a compound assignment operator? How does it work?
+  is an easier way of adding value to a variable
+2. List all the compound assignment operators.
+  +=,-=,*=,/=,&=
+3. List two ways to increment a numeric variable by 5. List two ways to decrement a numeric variable by
+50
+
+  type variable = value + 5;
+type variable += 5;
+
+  type variable = value - 50;
+ type variable -= 50;
+
+4. How long does a while loop run?
+until a certain condition is met
+5. What is an iteratiion variable? (Not in book)
+a statement that repeats itself until a condition is met
+6. What happens if you don't change the loop variable in the body of the while loop block?
+it wont run
+7. How many parts does a for loop statement have? Can you omit any of them? Can you omit all of
+them? What happens if you omit all of them?
+is composed of three parts initial statement, loop statement, and update control variable
+you can omit all of them different stuff happens if you omit the loop statement itll become an
+infinite loop if you omit the initial statement it wont run if you omit the update itll jump
+to the next statement
+8. How do you guarantee that a loop runs at least once?
+by using the break and continue commands
+9. What does the break statement do?
+it breaks away from the loop and to the next statement
+10. What does the continue statement do?
+it continues to the next statement after the loop is over
+11. (Thought question) Can you think of any reason why you would want to have an innite loop? An
+\innite loop" is a loop without an update variable that in eect runs forever. As you will see, these
+kinds of loops are written intentionally to perform various kinds of tasks.
+it could work well to make a clock app or maybe a gif

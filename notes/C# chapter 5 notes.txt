@@ -1,0 +1,142 @@
+iteration statements running statements repeatedly
+when running itiration statements you need to assing a different value to each statement
+the itiration will stop once reaches a certain value
+
+you can use the "+" operator to add to the value of an original value
+ c# will let you add value to the original value by using the "+="
+
+"compound assignment operators" are used to simplify the use of arithmetic operators in a statement
+for example
+
+variable = variable + number; instead of doing this you can do the following variable += number;
+the rest are as it follows:
+-=
+/=
+*=
++=
+%=
+these operators all share the same prescendence as the asignment operator
+
+only the "+=" operator and only that can also be used on string type to put words together for example:
+string name = "John";
+string greeting = "Hello ";
+greeting += name;
+Console.WriteLine(greeting);
+
+remember you can use "++" and "--" to add or substract 1 to a value which is easier than writing
+ value += 1;
+value++;
+
+you use the "while" statement to run a statement repeatedly as long as a condition is true
+
+it does this by repeating the statement checking if its true over and over until a certain condition
+gives "false"
+
+then it moves to the next statement
+
+the while statement syntax is the same as the if statement which is as it follows:
+*The expression must be a Boolean expression.
+*The Boolean expression must be written within parentheses.
+*If the Boolean expression evaluates to false when first evaluated, the
+statement does not run.
+*If you want to perform two or more statements under the control of a while
+statement, you must use braces to group those statements in a block.
+
+while statements should stop at some point DO NOT FORGET TO INPUT A VARIABLE THAT WILL RETURN A FALSE
+
+as if statements it is recommended you use blocks "{}" to run a statement in case you need to add more the
+body of the block
+
+string line = reader.ReadLine();read the first line from the file into this variable.
+This method returns either the next line of text from the file or a special
+value called null when there are no more lines to read.
+this statement declares a variable named line that calls the "reader.readline" method 
+
+"\n" ?
+
+"reader.dispose():" 
+This statement releases the resources associated with the file and closes it.
+
+"for" is a more formal version of the "while" command
+where is harder to mess up
+
+ 
+syntax for "while" statement
+initialization
+while (Boolean expression)
+{ statement
+update control variable
+}
+
+syntax for "for" statement:
+for (initialization; Boolean expression; update control variable)
+statement
+
+the statement for the "for" code is a single line ecnlosed in parentheses
+rather than a block unlike the while loop
+
+example of a for statement
+for (int i = 0; i < 10; i++)
+{ Console.WriteLine(i);
+}
+
+first statement reads i=o which is the assignment of value, then the boolean ask is i less than 10 which is true
+so then +1 is added to the value and the code runs again over and over until the value is 10
+
+add a block whenever using the "for" statement in case you want to add more code later on
+
+You can omit any of the three parts of a for statement. If you omit the
+Boolean expression
+
+for (int i = 0; ;i++)
+{ Console.WriteLine("somebody stop me!");
+}
+
+this code runs forever ^^^^ because there is no condition
+
+If you omit the initialization and update parts, you have a strangely spelled
+while loop:
+
+int i = 0;
+for (; i < 10; )
+{ Console.WriteLine(i);
+i++;
+}
+
+The initialization, Boolean expression, and update control variable
+parts of a for statement must always be separated by semicolons, even
+when they are omitted.
+
+You can also provide multiple initializations and multiple updates in a for
+loop. (You can have only one Boolean expression, though.) To achieve this,
+separate the various initializations and updates with commas, as shown in the
+following example
+for (int i = 0, j = 10; i <= j; i++, j--)
+{ ...
+}
+
+scope for a "for" variable is that is reserved to the block it was created in
+
+you also can assign the same value to different blocks becuase theyre different scopes
+
+"for" and "while" statements use their boolean statements at the beginning of the code
+where the "do" statement runs it after each iteration
+
+syntax for the "do" statement is as follows
+do
+statement
+while (booleanExpression);
+
+You must use a statement block if the body of the loop contains more than
+one statement (the compiler will report a syntax error if you don’t). Here’s a
+version of the example that writes the values 0 through 9 to the console, this time
+constructed by using a do statement:
+int i = 0;
+do
+{ Console.WriteLine(i);
+i++;
+} while (
+i
+<
+10);
+

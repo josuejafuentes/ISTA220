@@ -1,0 +1,47 @@
+boolean expressions alaways evaluate to "true" or "false"
+"!" will yield the opposite of a boolean statement
+"!" means NOT
+"==" equal
+"!=" not equal
+">" greater than
+">=" greater or equal than
+"<=" less or equal than
+
+conditional logic operators
+"&&" means AND
+"||" means OR
+their purpose is to combine two boolean expression or values into a single result
+the result of the expression in which the "&&" appear can only be true if and only if the
+result for both values are also true
+
+the result for the "||" is true if only one of the values is true
+
+"short circuiting" is when you put a simple boolean on the left side of the expression
+in order to get a faster result because the way || and && work a lot of work can be mitigated by
+giving the computer a fast answer 
+
+&& takes prescedence over ||
+
+IF and ELSE commands 
+whenever using these commands the expression next to "if" must be in parentheses
+the expression in a boolean must also be boolean
+
+if multiple statements need to be made in a boolean expression
+you could either create a new method with all the statements and recall the method or 
+use braces and put the statements inside of the braces this is called a "block"
+
+always use braces whenever using if and else statements itll save time and avoid problems
+
+scopes apply for blocks as well
+
+you can put if statements inside other if statements this is reffered to as cascading
+if the first statement is false the command will be transfered to the next else
+and the enxt if statement will run then the 4th and the 5th and so on...
+
+dateTime has a built in method called "compare" which takes two date times and compares them 
+
+using switch statements can only be used with int, char or string 
+if floate or double is used then "if" statement mnust be made
+
+case labels cannont have the same value
+

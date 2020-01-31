@@ -1,0 +1,105 @@
+a statement is a command that performs an action, such as calculating a value
+method is esentially a chain of commands with a name to label it
+syntax are the rules followed by the program to make an statement possible and semantics are what the statements do
+c# is "free format" language meaning space or a new line doesnt hold a meaning more than separating
+identifiers are the titles given to the elements of the program such as namespaces classes methods and variables
+
+*syntax for naming identifiers are:
+1. you can only use letters, numbers or underscore characters
+2.an identifier must start with a letter or an underscore
+
+(c# is case sensitive so an identifier can have the same name but a uppercase letter will differ them)
+
+KEYWORD (identefiers reserved by the program, cannot be used by user)
+p.s visual will show them as blue
+reference page 96 on ebook c#
+
+c# has another set of identifiers that can be used but should be avoided if possible
+reference page 97 of ebook
+
+variable is a storage location that holds a value, think of it as an album whenever you recall a
+memory you look into the album to retrieve that memory
+
+naming variables rules:
+1. avoid naming variables starting with an underscore as it can create problems if the code needs to be
+transfered to a different program
+2.do not name identifiers and differ them just by case size it can limit the use of the variable
+in a non sensitive case program
+3.start name with lowercase letter
+4.in a multi-word identifier start first letter lower case and then upper case for the other word's
+first letters
+
+types of values in c#: integers, floating point numbers and strings of characters are three examples
+(integer is a primitive data type)
+
+after declaring the value you can then assign it a value with the "=" sign also known as 
+assignment operator
+
+after that you can put that info in the console with the next command Console.Writeline(age);
+
+if a wrong value type is assigned to a variable c# would silently convert the value type to what it was
+assigned 
+to specify that you meant to add the value type you would write an "f" to the numeral literal as such:
+float Myvar; // declare a floating-point variable 
+myVar = 42F; // assign a floating-point value to the variable
+
+expression is the computer doing work for you 2+2=4
+
+any numeric value with a period is labeled as a double-precision floating-point number refered to as a double
+for short
+
+c# has other numeric types such as long integers which are larger range and more precise than integer and
+decimals which hold exact decimal values (they can be subjected to rounding and other approximations when they are
+involved in calculations) use "L" to a numerical value for long integers and "M" for decimals
+
+a variable is a name location in memorry that contains a value with a tag
+
+ToString method purpose is to convert an object into string represantation
+
+c# supports basic arithmetic (math) operations -,+,*,/(division) they are referred to as operators
+because they operate on values
+
+in values when theres an operator used the data used to make the operator work are called operands
+as such: 22 * 10 where "*" is operator and the numbers are the operands
+
+using operators is not allowed on string type or boolean type the only exception is 
+"+" on string which can be used to put values together
+
+.NET provides a method called Int32.Parse that you can use to convert a string value to an integer
+
+string interpolation which renders many of the uses of "+" almost obsolete for concatenating strings
+
+a common use of string concatenation is to generate string values that include variable values 
+
+"$" at the beggining of a string type means a variable is interpolated and that any expression between {} shoud be 
+evaluated and the result substituted in their place
+
+string interpolation is overral better than string concatenation due to memory
+
+double is better used for decimals due to accuracy
+
+whenever using operands do not mix types due to making expression more complicated than needed 
+c# tends to round to zero whenever an operand is used with an operator
+
+c# also supports a less known operator "%" known as the "remainder" or "modulus" where 
+x%Y equal to the integer value remainder of the division of x and y
+
+c# zero cannot be divided by in int, long and decimal types because the answer is infinite and the range is too
+far for the types however double and float have a special value "infinity" to represent the answer if used 
+if 0/0 c# will display the value NaN "not a number" 
+
+"=" assignment operator
+"==" equality operator
+"++" (adds 1 to the value)
+"--" (subtracts 1 from the value)
+if used before the value is called "prefix" if after is called "postfix"
+all this does is declare the order in which the expression is solved but it will give the same result
+
+c# uses pemdas to calculate expressions where "/", "*" and "%" take precendence in the order of operations
+unless parentheses are used this will override the precedence and read from left to right regardless
+of operator being used.
+
+"var" keyword is used to deduce the type of the variable whenver used in an expression however it cannot be changed 
+later on.
+
+

@@ -1,0 +1,154 @@
+method is a named sequence of statements
+syntax for declaring a c# method is the following statement
+
+returnType methodName (parameterList)
+{
+// method body statements go here
+}
+
+returnType is the name of a type and specifies the kind of information the method will return such as string
+int, float, double, etc. 
+if the method does not return a value the keyword void must be used in its place 
+
+the methodName is the name of the method and it's indetifier should be something meaningful to the method 
+example is functionality
+
+the parameterList is optional and is used to describe the types and names of info. you can pass onto the 
+method you write the parameters between parentheses with the name of the type followed by the parameter
+if the method being written has two or more parameters it must be separated by a comma
+
+you cannot use the var keyword to specify the method type or the parameter type it has to be specified
+in both cases
+
+method that returns a value is referred to as "function"
+method that does not return a value is reffered to as "procedure" or "subroutine"
+
+if you want a method to return information you must make a "return" statement at the end of the proccessing
+in the method body, its composed by a "return" keyword followed by an expression that specifies the returned
+value and a semicolon; if the method is returned an "int" the return statement must also be an "int" like 
+a sandwich you cant make a sandwich out of wheat and white bread
+
+int addValues(int leftHandSide, int rightHandSide)
+{/
+/ ...
+return leftHandSide + rightHandSide;
+}
+
+the return statement is placed at the end in order to return command to the method statement is also placed at
+the end to finish the body statements if you dont want your method to return anything you can write the "return"
+command with a semicolon at the end 
+
+void showResult(int answer)
+{/
+/ display the answer
+Console.WriteLine($"The answer is ");
+return;
+}
+
+if your method does not return it anything you can also not type the "return" command and it will stop at the
+closing brace
+
+expression-bodied methods are a simpler way to write methods where the "=>" is used to signify that the
+expression is the body statement and the lack of a return statement is present
+
+a method doesnt have a max amount o words or a least amount it can be as big or small as it needs to be 
+to get the job done reconsider a method if its longer than the screen
+
+methods are made to be called and perform a specific task 
+
+syntax for a method call goes as it follows
+result = methodName ( argumentList )
+
+elements that make up a method call
+The methodName must exactly match the name of the method you’re
+calling. Remember, C# is a case-sensitive language.
+the "result =" clause is optional the variable assigned to it will be returned if the method is "void" is
+not neccesary however if the method needs to return a value if the "result" is not made it will not return
+anything
+
+the argumentList supplies the info that the method accepts, an argument must be given to each parameter
+the type of the value must match the type of the parameter furthermore parameters must be separated by commas
+
+all methods require parentheses regardless of arguments being present
+
+you can call the oject to other methods by prefixing the method with the name of the object
+
+A tuple is simply a small collection of values (strictly speaking, a tuple
+contains two values, but C# tuples can comprise bigger sets than this)
+You indicate that a method returns a tuple by specifying a list of types as part of the
+method definition; one type for each value returned. The return statement in the
+method returns a list of values, as shown by the following example
+(int, int) returnMultipleValues(...)
+{ int val1;
+int val2;
+... // Calculate values for val1 and val2
+return(val1, val2);
+}
+
+when a variable is created in a method it can only be used in that method 
+variables can have different scopes and are accessed throughout their scopes for example
+a variable created in a method has a method scope one created in a class has a class scope
+
+a variable created in a class is referred to as "field" and can be used in multiple methods in that class
+
+you can use the field in a method before defining it
+
+overloading a method is when you use a method with the same identifier but 
+different parameters in the same class however the type has to differ as well
+
+The Console.Write method is similar to the Console.WriteLine
+statement that you have used in earlier exercises, except that it does
+not output a newline character after the message
+
+The user types a value, which is read into a string using the ReadLine
+method and converted to a double using the double.Parse method
+
+double.Parse method converts a string into a double
+
+The ReadLine method is the companion method to WriteLine; it
+reads user input from the keyboard, finishing when the user presses
+the Enter key. The text typed by the user is passed back as the return
+value. The text is returned as a string value.
+
+
+"stepping into the method" refers to when you see each method being called
+"stepping out of the method" is when you see return statements giving control back to the caller
+
+debug toolbar appears when running the code through debugging it allows you to see the program run in slow
+motion
+
+breaking down large methods into smaller methods can help making sure the code runs properly before
+putting the whole thing together this is referred to as nesting method
+
+"n * factorial (n-1)" is an expression to figure out how many times you can arrange an object different ways
+
+.NET framework can run different languages in the same app
+COM stands for component object model
+CLR stands for common language runtime
+
+optional parameters are defined when the method is created by using the assignment parameter "="
+you must specify all mandatory parameters before any optional ones
+
+optional parameters are used to distinguish methods with similar parameters
+for example
+"string mymethod (int val1)"
+"string mymethod (int val2)"
+
+you can call optional parameters you would call any other parameter the only difference is
+when you input the arguments you dont have to do all of them you can do 2 or 3 and the rest will be
+filled by default
+
+ named arguments work like this: 
+when calling the parameter in a method c# will do it in the order they were typed if you want to do it
+in a different sequence you name the parameter a colon ":" and the value of the parameter 
+
+This feature also makes it possible for you to omit arguments. For example,
+you can call the optMethod method and specify values for the first and third
+parameters only and use the default value for the second parameter
+
+You can quickly view the definition of a method from the
+statement that invokes it. To do so, right-click the method call and
+then click Peek Definition
+
+
+ 

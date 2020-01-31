@@ -1,0 +1,17 @@
+method, function, procedure, subprocedure, routine, subroutine
+
+app.xaml
+.net core will run on different applications i.e ios, microsoft, linux
+is open source and is not as good as framework
+c# will use framework for ASP.NET core
+
+namespace creates a namespace for your project
+{} everything between these brackets are in the same segment
+class creates a class next to it is the name of your class in a console app the class MUST be named 'program'
+static is a signal 
+every method must have a return type if it returns nothing its void 
+main is the name of the method and every method has parentheses 
+//
+classes and types are the same thing
+= is not an equal sign ensign operator it takes stuff from the right hand side to the left hand sign
+interpolation conetation

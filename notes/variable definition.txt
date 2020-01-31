@@ -1,0 +1,4 @@
+
+a variable is a name location in memorry that contains a value with a tag
+
+a method is a named block of code that accepts values from outside and returns values to the outsides

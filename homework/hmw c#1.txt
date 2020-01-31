@@ -1,0 +1,23 @@
+homework c# 1
+1. What is a console app?
+
+2. What does Main() (the main method) do in a console application?
+
+3. What is the purpose of a namespace?
+a collection of resources
+4. Describe speciﬁcally what using statements do.
+import name spaces
+5. What is an assembly?
+chain of executible code
+6. What is the relationship between an assembly and a namespace?
+no relationship 
+7. What is a graphical app?
+interactive application
+8. What is the starting point in a graphical application?
+
+9. What does Build do?
+it esentially translates code into something the computer could read
+10. (Not in book) What is bytecode? What is Microsoft CIL? Do you think that CIL is bytecode? Why or why not?
+common intermidiate language
+11. What does Debug do?
+it reads code line by line looking for errors

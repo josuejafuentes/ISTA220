@@ -1,0 +1,13 @@
+accesibility mod are to share data whithin the class 
+
+public static void variable();
+
+public is the accesibility mod 
+static is like a bookmark in the code
+void is the return type 
+variable is the name of the method
+
+
+parameters inside a method are telling the method what type of input is allowed to be used
+when recalling the method, optional parameters are the default to be used whenever the method is
+called again

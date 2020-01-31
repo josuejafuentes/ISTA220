@@ -1,0 +1,28 @@
+1. What is a local variable?
+is a variable that only exist within a variable
+2. What is a statement?
+is a command that performs an action
+3. What is an identiﬁer?
+any name given to any part of the program
+4. What is a variable?
+is a storage location that holds a value
+5. What is a method?
+a block with a set of statements
+6. Are primitive types and value types the same thing? This is not in the book.
+value types are the different way to store and use the values and primitive types are what the language
+is based off
+7. How are arithmetic operators and variable types related?
+
+8. How do you turn an integer into a string?
+using the two string method
+9. How do you turn a string into an integer?
+
+10. What is the diﬀerence between precedence and associativity? Give an example where this makes a diﬀerence.
+precedence is the order an expression is valuated and associativity is how is valuated 
+11. What is the deﬁnite assignment rule?
+you cannot use a variable unless you assing a value to it
+12. How are the preﬁx and postﬁx increment and decrement operators evaluated diﬀerently?
+
+13. What is string interpolation?
+
+14. What does the var keyword do?
