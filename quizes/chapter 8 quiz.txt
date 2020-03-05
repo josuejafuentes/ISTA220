@@ -1,0 +1,28 @@
+using System;
+
+
+namespace quiz_4
+{
+    class firearm
+    {
+        public void Act(string x, string y)
+        {
+            Console.WriteLine($"i am a {x} and i go {y}");
+            
+        }
+    }
+    class program
+    {
+        static void Main(string[] args)
+        {
+            firearm shotgun = new firearm();
+            firearm pistol = new firearm();
+            firearm rifle = new firearm();
+            Console.WriteLine("this is test 04");
+            shotgun.Act("shotgun", "boom");
+            rifle.Act("rifle", "bang");
+            pistol.Act("pistol", "pop");
+
+        }
+    }
+}
